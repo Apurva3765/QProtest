@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.TestClass">
+        <parameter name="strParamst5" value="CommunicationSomewhatComfortable@#AptitudeVeryComfortable@#SkillsetVeryComfortable"/>
+        <parameter name="strParams" value="chrome@#https://www.questionpro.com/t/AK7ptZqw5N"/>
+        <parameter name="strParamst3" value="Samosa@#Orange Juice"/>
+        <parameter name="strParamst4" value="1@#2@#3"/>
+        <parameter name="strParamst2" value="SelectedOtherOption"/>
+        <methods>
+          <include name="test5"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- test.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
